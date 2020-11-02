@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jul  4 07:34:30 2020
+# Process ID: 10088
+# Current directory: C:/Users/Guy/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7320
+# Log file: C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Guy/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.xpr
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.srcs/sources_1/Top_Verilog/nm96_top.v]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+set_property is_enabled true [get_files  C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.srcs/sources_1/Top_Verilog/nm96_top.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+archive_project C:/Users/Guy/Desktop/FTGA_Launch/NeuroMem2018_Open_Source.xpr.zip -temp_dir C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10088-NorliFive -force -include_local_ip_cache -include_config_settings
+archive_project C:/Users/Guy/Desktop/FTGA_Launch/NeuroMem2018_Open_Source_Compact.xpr.zip -temp_dir C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10088-NorliFive -force -exclude_run_results

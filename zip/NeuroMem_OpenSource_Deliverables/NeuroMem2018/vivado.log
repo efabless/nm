@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jul  4 07:34:30 2020
+# Process ID: 10088
+# Current directory: C:/Users/Guy/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7320
+# Log file: C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Guy/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 845.504 ; gain = 156.637
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.srcs/sources_1/Top_Verilog/nm96_top.v]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sat Jul  4 08:33:15 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.runs/synth_1/runme.log
+set_property is_enabled true [get_files  C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.srcs/sources_1/Top_Verilog/nm96_top.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sat Jul  4 08:46:59 2020] Launched synth_1...
+Run output will be captured here: C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.runs/synth_1/runme.log
+archive_project C:/Users/Guy/Desktop/FTGA_Launch/NeuroMem2018_Open_Source.xpr.zip -temp_dir C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10088-NorliFive -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10088-NorliFive' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'vector256_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'vector256_impl_1'...
+INFO: [Coretcl 2-1209] Adding archive summary file to the project...
+INFO: [Coretcl 2-1214] Preparing project files for archive...
+INFO: [Coretcl 2-1210] Compressing project files and data...
+INFO: [Coretcl 2-1215] Project archived (C:/Users/Guy/Desktop/FTGA_Launch/NeuroMem2018_Open_Source.xpr.zip)
+INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory.
+archive_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 912.648 ; gain = 27.008
+archive_project C:/Users/Guy/Desktop/FTGA_Launch/NeuroMem2018_Open_Source_Compact.xpr.zip -temp_dir C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10088-NorliFive -force -exclude_run_results
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Guy/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10088-NorliFive' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'vector256_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'vector256_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'vector256_impl_1'...

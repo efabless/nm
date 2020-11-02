@@ -1,0 +1,75 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+-------------------------------------
+-------------------------------------
+Neuron Count Test
+               17190 : neurons=    96
+-------------------------------------
+RBF Test 1
+DIST= 0008, expecting 8
+CAT= 0001, expecting 1
+DIST= 0008, expecting 8
+CAT= 0002, expecting 2
+CSR= 0008, expecting identified status 8
+               27350 : Results: Error   0
+-------------------------------------
+RBF Test2
+CSR= 0004, expecting uncertain status 4
+NCOUNT= 0002, expecting 2 neurons
+               30610 : Results: Error   0
+-------------------------------------
+RBF Test3 with mixed context values
+CSR= 0008, expecting identified status 8
+CAT= 0011, expecting 11
+CSR= 0008, expecting identified status 8
+CAT= 0013, expecting 13
+CSR= 0004, expecting uncertain status 4
+CAT= 0013, expecting 13
+CAT= 0011, expecting 11
+               37270 : Results: Error   0
+-------------------------------------
+RBF Test4, testing degenerated flags
+CAT= 8013, expecting 8013
+CAT= 8011, expecting 8011
+CAT= 0012, expecting 0012
+CAT= 8012, expecting 8012
+               45310 : Results: Error   0
+-------------------------------------
+TOTAL TEST ERRORS:   0
+$finish called at time : 45330 ns : File "C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.srcs/sim_1/imports/Testbenches/CMtb_RBF_parallel_one_chip_quick.v" Line 412
+-------------------------------------
+Neuron Count Test
+               17190 : neurons=    96
+-------------------------------------
+RBF Test 1
+DIST= 0008, expecting 8
+CAT= 0001, expecting 1
+DIST= 0008, expecting 8
+CAT= 0002, expecting 2
+CSR= 0008, expecting identified status 8
+               27350 : Results: Error   0
+-------------------------------------
+RBF Test2
+CSR= 0004, expecting uncertain status 4
+NCOUNT= 0002, expecting 2 neurons
+               30610 : Results: Error   0
+-------------------------------------
+RBF Test3 with mixed context values
+CSR= 0008, expecting identified status 8
+CAT= 0011, expecting 11
+CSR= 0008, expecting identified status 8
+CAT= 0013, expecting 13
+CSR= 0004, expecting uncertain status 4
+CAT= 0013, expecting 13
+CAT= 0011, expecting 11
+               37270 : Results: Error   0
+-------------------------------------
+RBF Test4, testing degenerated flags
+CAT= 8013, expecting 8013
+CAT= 8011, expecting 8011
+CAT= 0012, expecting 0012
+CAT= 8012, expecting 8012
+               45310 : Results: Error   0
+-------------------------------------
+TOTAL TEST ERRORS:   0
+$finish called at time : 45330 ns : File "C:/Users/Guy/X_projects/NeuroMem2018/NeuroMem2018.srcs/sim_1/imports/Testbenches/CMtb_RBF_parallel_one_chip_quick.v" Line 412

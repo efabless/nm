@@ -1,0 +1,23 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1cdf762f2eff48098fd5b8c2c74219d9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot NM500_test_behav xil_defaultlib.NM500_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IOBUF
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.RAM256X1S
+Compiling module xil_defaultlib.vector256_spram
+Compiling module xil_defaultlib.vector256_dist_mem_gen_v8_0_12_s...
+Compiling module xil_defaultlib.vector256_dist_mem_gen_v8_0_12
+Compiling module xil_defaultlib.vector256
+Compiling module xil_defaultlib.neuron
+Compiling module xil_defaultlib.neuroncluster
+Compiling module xil_defaultlib.nm_top
+Compiling module xil_defaultlib.NM500_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot NM500_test_behav
