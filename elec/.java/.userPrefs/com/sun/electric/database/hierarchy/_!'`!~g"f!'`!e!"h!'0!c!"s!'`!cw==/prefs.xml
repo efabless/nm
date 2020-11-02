@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CurrentCell" value="test_inv{sch}"/>
+  <entry key="SavedSignalsForCelltest_A_ICF" value="&#9;&#9;v(in) {255,0,0}&#9;v(yout) {255,127,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_aadcc02" value="&#9;&#9;v(in) {255,0,0}&#9;v(xaadcc02_aadcc02@0.dac_out) {255,127,0}&#10;&#9;&#9;v(eoc) {255,0,0}&#10;&#9;&#9;v(xaadcc02_aadcc02@0.comp_out) {255,0,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_abgpc01" value="&#9;&#9;v(vbg) {255,0,0}&#9;v(abgpc01@0_vbgvtn) {255,127,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_axtoc" value="&#9;&#9;v(clkout_32k) {255,0,0}&#10;&#9;&#9;v(clkout_1mhz) {255,0,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_axtoc02" value="&#9;&#9;v(clkout) {255,0,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_gate" value="&#9;&#9;v(in) {255,0,0}&#9;v(invout) {255,127,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_inv" value="&#9;&#9;v(in) {255,0,0}&#9;v(outo[2]) {255,127,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_l09a" value="&#9;&#9;i(vvpulse@0) {255,0,0}&#10;"/>
+</map>

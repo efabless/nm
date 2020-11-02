@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CurrentCell" value="test_cmos_tb{sch}"/>
+  <entry key="Etest_pnp{lay}" value="true"/>
+  <entry key="SavedSignalsForCelltest_cmos_tb" value="&#9;&#9;v(y) {255,255,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_resistors" value="&#9;&#9;v(y) {255,0,0}&#10;"/>
+  <entry key="SpiceModelFileFor_test_spice_test_capacitors_lay" value="+++++"/>
+  <entry key="SpiceModelFileFor_test_spice_test_cmos_lay" value="+++++"/>
+  <entry key="SpiceModelFileFor_test_spice_test_cmos_sch" value="-----"/>
+  <entry key="SpiceModelFileFor_test_spice_test_cmos_tb_sch" value="+++++"/>
+  <entry key="SpiceModelFileFor_test_spice_test_pnp_lay" value="+++++"/>
+  <entry key="SpiceModelFileFor_test_spice_test_resistors_lay" value="+++++"/>
+</map>

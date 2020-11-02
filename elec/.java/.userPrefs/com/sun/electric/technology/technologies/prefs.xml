@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="ColorForArcInschematic" value="3255807"/>
+  <entry key="ColorForBusInschematic" value="3255807"/>
+  <entry key="ColorForGlyphIngeneric" value="16777215"/>
+  <entry key="ColorForGraphicsInartwork" value="1820752"/>
+  <entry key="ColorForTextInschematic" value="16704176"/>
+  <entry key="ColorForUniversalIngeneric" value="16777215"/>
+  <entry key="PatternForBusInschematic" value="17476/4369/17476/4369/17476/4369/17476/4369/17476/4369/17476/4369/17476/4369/17476/4369"/>
+  <entry key="UsePatternDisplayForArcInschematic" value="true"/>
+  <entry key="UsePatternPrinterForBusInschematic" value="false"/>
+  <entry key="VisibilityOfDRCINgeneric" value="false"/>
+</map>

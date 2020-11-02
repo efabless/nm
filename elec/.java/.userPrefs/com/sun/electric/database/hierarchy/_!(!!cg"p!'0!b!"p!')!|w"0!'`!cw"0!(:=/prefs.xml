@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CurrentCell" value="test_cmos_harness{sch}"/>
+  <entry key="Etest_cmos_harness{lay}" value="true"/>
+  <entry key="SavedSignalsForCelltest_cmos_harness" value="&#9;&#9;v(y) {255,0,0}&#10;&#9;&#9;v(y) {255,0,0}&#9;v(a) {255,127,0}&#9;v(vdd) {255,255,0}&#9;v(vss) {127,255,0}&#10;"/>
+</map>

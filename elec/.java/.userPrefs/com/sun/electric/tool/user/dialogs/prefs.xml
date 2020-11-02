@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CellBrowser-SortLexically" value="false"/>
+  <entry key="GetInfoArc-bigger" value="false"/>
+  <entry key="GetInfoNode-bigger" value="true"/>
+  <entry key="GetInfoNode-buttonSelected" value="1"/>
+  <entry key="Select CellCellBrowser-Filter" value=""/>
+  <entry key="Select CellCellBrowser-SelectedCell" value="test_axtoc_2{sch}"/>
+  <entry key="Select CellCellBrowser-SelectedLib" value="ef_examples"/>
+  <entry key="Select CellCellBrowser-SelectedView" value="All"/>
+</map>

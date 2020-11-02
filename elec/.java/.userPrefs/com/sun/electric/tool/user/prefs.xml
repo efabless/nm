@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="AlignmentToGridVector" value="(20.0 10.0 5.0 *1.0 0.25)"/>
+  <entry key="ColorBackground" value="-16514044"/>
+  <entry key="ColorGrid" value="-1"/>
+  <entry key="ColorHighlight" value="-256"/>
+  <entry key="ColorInstanceOutline" value="-1"/>
+  <entry key="ColorMeasurement" value="-65536"/>
+  <entry key="ColorText" value="-73040"/>
+  <entry key="ComponentMenuEntryForCapacitorInschematic" value="Normal"/>
+  <entry key="ComponentMenuEntryForGlobal-SignalInschematic" value="Global"/>
+  <entry key="ComponentMenuEntryForHi-Res-Poly2-ResistorInmocmos" value="N-No-Silicide-Poly-Resistor"/>
+  <entry key="ComponentMenuEntryForMetal-1-Polysilicon-2-ConInmocmos" value="Metal-1-Polysilicon-1-2-Con"/>
+  <entry key="ComponentMenuEntryForN-Active-ResistorInmocmos" value="N-Well-Resistor"/>
+  <entry key="ComponentMenuEntryForN-TransistorInmocmos" value="N-Transistor-Scalable"/>
+  <entry key="ComponentMenuEntryForResistorInschematic" value="Normal"/>
+  <entry key="DefGridXSpacing" value="4.0"/>
+  <entry key="DefGridYSpacing" value="4.0"/>
+  <entry key="DefaultExtendedForN-ActiveINmocmos" value="false"/>
+  <entry key="DefaultExtendedForP-ActiveINmocmos" value="false"/>
+  <entry key="DefaultFont" value="Nimbus Mono L"/>
+  <entry key="DefaultSlidableForwireINschematic" value="true"/>
+  <entry key="DefaultTechnology" value="schematic"/>
+  <entry key="DefaultTextCellFont" value="SansSerif"/>
+  <entry key="DefaultWindowTab" value="1"/>
+  <entry key="DistanceUnit" value="-1"/>
+  <entry key="RecentlyOpenedLibraries" value=""/>
+  <entry key="ToolbarIconFiles" value="Export:Manipulate Exports...|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/editexports.png&#9;Edit:Arc:Toggle End Extension of Tail|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/toggletail.png&#9;Tools:DRC:Check Hierarchically|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/drc.png&#9;Edit:Rotate:90 Degrees Clockwise|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/rotatecw90.png&#9;Edit:Arc:Toggle End Extension of Both Head/Tail|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/toggleheadtail.png&#9;Cell:Up Hierarchy:Up Hierarchy|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/eyeclose.png&#9;Cell:Down Hierarchy:Down Hierarchy|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/view.png&#9;Edit:Mirror:Left &lt;-&gt; Right|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/mirrorhorizontal.png&#9;Tools:NCC:Schematic and Layout Views of Cell in Current Window|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/lvs.png&#9;Tools:Simulation (Spice):Write Spice Deck...|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/sim.png&#9;Edit:Arc:Insert Jog In Arc|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/insertjogarc.png&#9;Export:Show Exports|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/showexports.png&#9;Edit:Arc:Toggle End Extension of Head|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/togglehead.png&#9;Edit:Mirror:Up &lt;-&gt; Down|/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/mirrorvertical.png"/>
+  <entry key="ToolbarOrder" value="B=ButtonOpenLibrary|B=ButtonSaveLibrary||B=ButtonClickZoomWire|B=ButtonPan|B=ButtonZoom|B=ButtonOutline|B=ButtonMeasure||B=ButtonObjects|B=ButtonArea|B=ButtonSelectSpecialOff||B=ButtonUndo|B=ButtonRedo||B=ButtonGoBack|B=ButtonGoForward||U=Cell:Down Hierarchy:Down Hierarchy=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/view.png|U=Cell:Up Hierarchy:Up Hierarchy=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/eyeclose.png||U=Edit:Rotate:90 Degrees Clockwise=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/rotatecw90.png|U=Edit:Mirror:Up &lt;-&gt; Down=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/mirrorvertical.png|U=Edit:Mirror:Left &lt;-&gt; Right=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/mirrorhorizontal.png||U=Export:Show Exports=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/showexports.png|U=Export:Manipulate Exports...=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/editexports.png||U=Tools:Simulation (Spice):Write Spice Deck...=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/sim.png|U=Tools:Simulation (Spice):Plot Simulation Output, SymProbe, Guess=U=/ef/efabless/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/wave_blk.png|U=Tools:Simulation (Spice):View Spice Deck=U=/ef/efabless/deskel/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/edit_con.png|U=Tools:Simulation (Spice):View Spice Log=U=/ef/efabless/deskel/dotjava/.userPrefs/com/sun/electric/tool/user/menubarpngs/log_icon.png"/>
+  <entry key="WorkingDirectory" value=""/>
+  <entry key="dockMessagesWindow" value="false"/>
+</map>

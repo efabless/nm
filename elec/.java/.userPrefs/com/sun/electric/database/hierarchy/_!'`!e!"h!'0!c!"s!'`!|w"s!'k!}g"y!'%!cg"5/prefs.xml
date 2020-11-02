@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CurrentCell" value="Oscillator_test{sch}"/>
+  <entry key="SavedSignalsForCellOscillator_test" value="&#9;&#9;v(clk_1000k) {255,0,0}&#10;&#9;&#9;v(clk_200k) {255,0,0}&#10;&#9;&#9;v(clk_14k) {255,0,0}&#10;&#9;&#9;v(clk_prog) {255,0,0}&#10;"/>
+</map>

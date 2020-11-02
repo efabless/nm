@@ -1,0 +1,9 @@
+* *****************************************************
+* sky130A Electric VLSI Reference Libraries Folders
+* *****************************************************
+
+* primitive technology and ngspice primitives library
+/ef/tech/SW.2/sky130A/libs.tech/elec
+
+* reference libraries
+/ef/tech/SW.2/sky130A/libs.ref/elec

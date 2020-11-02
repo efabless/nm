@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CurrentCell" value="sim_ADCchip_top{sch}"/>
+  <entry key="SavedSignalsForCellsim_ADCchip_top" value="&#9;&#9;v(xadcchip_@1.clock) {255,0,0}&#10;&#9;&#9;v(in) {255,0,0}&#9;v(xadcchip_@1.xaadcc02_aadcc02@0.dac_out) {255,127,0}&#10;&#9;&#9;v(xadcchip_@1.dout[0]) {255,0,0}&#9;v(xadcchip_@1.dout[1]) {255,127,0}&#9;v(xadcchip_@1.dout[2]) {255,255,0}&#9;v(xadcchip_@1.dout[3]) {127,255,0}&#9;v(xadcchip_@1.dout[4]) {0,235,0}&#9;v(xadcchip_@1.dout[5]) {0,255,102}&#9;v(xadcchip_@1.dout[6]) {0,255,255}&#9;v(xadcchip_@1.dout[7]) {0,127,255}&#9;v(xadcchip_@1.dout[8]) {80,80,255}&#9;v(xadcchip_@1.dout[9]) {127,0,255}&#10;&#9;&#9;v(xadcchip_@1.eoc) {255,0,0}&#10;&#9;&#9;v(xadcchip_@1.xaadcc02_aadcc02@0.comp_out) {255,127,0}&#10;"/>
+</map>

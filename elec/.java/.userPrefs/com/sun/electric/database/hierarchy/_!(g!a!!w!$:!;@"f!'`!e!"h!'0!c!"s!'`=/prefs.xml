@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="CurrentCell" value="test_adacc02{sch}"/>
+  <entry key="SavedSignalsForCellcounter10b" value="&#9;&#9;v(clk) {255,0,0}&#10;&#9;&#9;v(count[0]) {255,0,0}&#10;&#9;&#9;v(count[1]) {255,0,0}&#10;&#9;&#9;v(count[2]) {255,0,0}&#10;&#9;&#9;v(countb[0]) {255,0,0}&#10;&#9;&#9;v(countb[1]) {255,0,0}&#10;&#9;&#9;v(countb[2]) {255,0,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_aadcc02" value="&#9;&#9;v(clock) {255,0,0}&#10;&#9;&#9;v(eoc) {255,0,0}&#9;v(xaadcc02_aadcc02@0.comp_out) {255,127,0}&#10;&#9;&#9;v(xaadcc02_aadcc02@0.dac_out) {255,0,0}&#9;v(in) {255,127,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_abgpc01" value="&#9;&#9;v(vdd) {255,0,0}&#9;v(en) {255,127,0}&#9;v(vbg) {255,255,0}&#10;"/>
+  <entry key="SavedSignalsForCelltest_adacc02" value="&#9;&#9;v(xaadcc02_aadcc02@0.dac_out) {255,0,0}&#9;v(in) {255,127,0}&#10;&#9;&#9;v(xaadcc02_aadcc02@0.comp_out) {255,127,0}&#10;"/>
+  <entry key="SavedSignalsForCelltestadc" value="&#9;&#9;v(xaadcc02_aadcc02@0.xi2.clk1) {255,0,0}&#10;&#9;&#9;v(eoc) {255,0,0}&#10;&#9;&#9;v(resb) {255,0,0}&#9;v(start) {255,127,0}&#10;&#9;&#9;v(xaadcc02_aadcc02@0.dac_out) {255,0,0}&#9;v(in) {255,127,0}&#10;&#9;&#9;v(xaadcc02_aadcc02@0.comp_out) {255,0,0}&#10;&#9;&#9;v(do[0]) {255,127,0}&#10;&#9;&#9;v(do[1]) {255,0,0}&#10;"/>
+</map>

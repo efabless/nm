@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE map SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<map MAP_XML_VERSION="1.0">
+  <entry key="MenuKeyBinding-Cell | Down Hierarchy | Down Hierarchy" value="shift X; E"/>
+  <entry key="MenuKeyBinding-Cell | Down Hierarchy | Down Hierarchy In Place" value="shift E"/>
+  <entry key="MenuKeyBinding-Cell | Expand Cell Instances | All the Way" value="shift F"/>
+  <entry key="MenuKeyBinding-Cell | Look Inside Highlighted" value="shift P; ctrl P"/>
+  <entry key="MenuKeyBinding-Cell | Place Cell Instance..." value="I; N"/>
+  <entry key="MenuKeyBinding-Cell | Unexpand Cell Instances | All the Way" value=""/>
+  <entry key="MenuKeyBinding-Cell | Up Hierarchy | Up Hierarchy" value="shift B; ctrl E; ctrl U"/>
+  <entry key="MenuKeyBinding-Edit | Change..." value="shift C"/>
+  <entry key="MenuKeyBinding-Edit | Cleanup Cell | Cleanup Pins" value="F3"/>
+  <entry key="MenuKeyBinding-Edit | Duplicate" value="C; ctrl M"/>
+  <entry key="MenuKeyBinding-Edit | Mirror | Left &lt;-&gt; Right" value="X"/>
+  <entry key="MenuKeyBinding-Edit | Mirror | Up &lt;-&gt; Down" value="Y"/>
+  <entry key="MenuKeyBinding-Edit | Modes | Edit | Click/Zoom/Wire" value="alt S"/>
+  <entry key="MenuKeyBinding-Edit | Modes | Edit | Toggle Measure Distance" value="K; M; alt M"/>
+  <entry key="MenuKeyBinding-Edit | Modes | Edit | Toggle Outline Edit" value="alt Y"/>
+  <entry key="MenuKeyBinding-Edit | Modes | Edit | Toggle Pan" value="P"/>
+  <entry key="MenuKeyBinding-Edit | Modes | Edit | Toggle Zoom" value="alt Z"/>
+  <entry key="MenuKeyBinding-Edit | Modes | Movement | Make Grid Larger" value=""/>
+  <entry key="MenuKeyBinding-Edit | Move | Align to Grid" value="alt A"/>
+  <entry key="MenuKeyBinding-Edit | Move | Move Objects By..." value="shift M"/>
+  <entry key="MenuKeyBinding-Edit | Properties | Object Properties..." value="Q; ctrl I"/>
+  <entry key="MenuKeyBinding-Edit | Redo" value="shift U; ctrl Y"/>
+  <entry key="MenuKeyBinding-Edit | Rotate | 90 Degrees Clockwise" value="J"/>
+  <entry key="MenuKeyBinding-Edit | Selection | Select Nothing" value="ctrl D; D"/>
+  <entry key="MenuKeyBinding-Edit | Selection | Select Object..." value="S"/>
+  <entry key="MenuKeyBinding-Edit | Size | Interactively" value="ctrl B"/>
+  <entry key="MenuKeyBinding-Edit | Undo" value="U"/>
+  <entry key="MenuKeyBinding-Export | Create Export..." value=""/>
+  <entry key="MenuKeyBinding-Export | Show Exports" value="alt X"/>
+  <entry key="MenuKeyBinding-File | Preferences..." value="alt P"/>
+  <entry key="MenuKeyBinding-File | Save Library" value="F2"/>
+  <entry key="MenuKeyBinding-Shortcuts | Window Cycle" value="W"/>
+  <entry key="MenuKeyBinding-Tools | Routing | Auto-Stitch Highlighted Now" value="F4"/>
+  <entry key="MenuKeyBinding-Tools | Simulation (Built-in) | Set Signal Undefined at Main Time" value=""/>
+  <entry key="MenuKeyBinding-Window | Close Window" value="ctrl W; shift O"/>
+  <entry key="MenuKeyBinding-Window | Fill Window" value="F; ctrl 9; ctrl NumPad-9"/>
+  <entry key="MenuKeyBinding-Window | Redisplay Window" value="ctrl R"/>
+  <entry key="MenuKeyBinding-Window | Special Pan | Center Cursor" value="ctrl 5; ctrl shift Begin"/>
+  <entry key="MenuKeyBinding-Window | Special Zoom | Focus on Highlighted" value="ctrl F; ctrl NumPad-5"/>
+  <entry key="MenuKeyBinding-Window | Special Zoom | Zoom Box" value="Z"/>
+  <entry key="MenuKeyBinding-Window | Zoom In" value="ctrl Z; ctrl 7; ctrl NumPad-7"/>
+  <entry key="MenuKeyBinding-Window | Zoom Out" value="shift Z; ctrl 0; ctrl NumPad-0"/>
+  <entry key="MenuKeyBinding-ools | NCC | Schematic and Layout Views of Cell in Current Window" value="F8"/>
+</map>
