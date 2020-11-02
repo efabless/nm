@@ -20,7 +20,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // option to instantiate more clusters if they fit into the FPGA
 `timescale 1 ns / 100 ps // timescale for following modules
 // See NM500 documentation for operation
-module nm_top (input G_CLK, input G_RESET_l, input CS_l,input DS, input RW_l, input [3:0]REG, inout [15:0]DATA,
+module nm (input G_CLK, input G_RESET_l, input CS_l,input DS, input RW_l, input [3:0]REG, inout [15:0]DATA,
     inout ID_l, inout UNC_l,input DCI, output DCO, output RDY); 
 //
 wire reset_l;
