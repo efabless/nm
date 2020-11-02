@@ -1,0 +1,62 @@
+Startpoint: _102295_ (rising edge-triggered flip-flop)
+Endpoint: DCO (output port clocked by clk)
+Path Group: clk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _102295_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.31    0.31 ^ _102295_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00    0.31 ^ DCO (out)
+           0.31   data arrival time
+
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+  -2.00   -2.00   output external delay
+          -2.00   data required time
+---------------------------------------------------------
+          -2.00   data required time
+          -0.31   data arrival time
+---------------------------------------------------------
+           2.31   slack (MET)
+
+
+Startpoint: _102240_ (rising edge-triggered flip-flop)
+Endpoint: RDY (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _102240_/CLK (sky130_fd_sc_hd__dfstp_4)
+   1.00    1.00 v _102240_/Q (sky130_fd_sc_hd__dfstp_4)
+   0.78    1.78 v _053353_/X (sky130_fd_sc_hd__or3_4)
+   1.04    2.82 v _053354_/X (sky130_fd_sc_hd__or4_4)
+   1.11    3.93 v _053355_/X (sky130_fd_sc_hd__or4_4)
+   0.51    4.45 v _053356_/X (sky130_fd_sc_hd__or2_4)
+   0.15    4.60 ^ _053357_/Y (sky130_fd_sc_hd__nor2_4)
+   0.28    4.88 ^ _053358_/X (sky130_fd_sc_hd__and2_4)
+   0.41    5.30 ^ _053359_/X (sky130_fd_sc_hd__buf_1)
+   0.12    5.42 v _053360_/Y (sky130_fd_sc_hd__inv_8)
+   0.45    5.86 v _053361_/X (sky130_fd_sc_hd__or2_4)
+   0.42    6.29 v _053362_/X (sky130_fd_sc_hd__or2_4)
+   0.46    6.75 v _053363_/X (sky130_fd_sc_hd__buf_1)
+   0.76    7.51 v _053364_/X (sky130_fd_sc_hd__or3_4)
+   0.39    7.90 v _053365_/X (sky130_fd_sc_hd__buf_1)
+   0.52    8.42 ^ _095883_/Y (sky130_fd_sc_hd__nor4_4)
+   0.00    8.42 ^ RDY (out)
+           8.42   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+          -8.42   data arrival time
+---------------------------------------------------------
+          -0.42   slack (VIOLATED)
+
+

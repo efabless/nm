@@ -1,0 +1,88 @@
+Mon Nov 02 06:04:14 UTC 2020 - Executing "/openLANE_flow/scripts/mergeLef.py -i /home/mk/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef /home/mk/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef -o /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Mon Nov 02 06:04:14 UTC 2020 - Executing "/openLANE_flow/scripts/padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/merged_unpadded.lef -o /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Mon Nov 02 06:04:28 UTC 2020 - Executing "/openLANE_flow/scripts/libtrim.pl /home/mk/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/mk/foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/trimmed.lib"
+
+Mon Nov 02 06:04:28 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts/synth.tcl -l /openLANE_flow/designs/spm/runs/02-11_06-04/logs/synthesis/yosys.log |& tee >&@stdout"
+
+Mon Nov 02 06:04:30 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:04:30 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:04:30 UTC 2020 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/synthesis/opensta.log"
+
+Mon Nov 02 06:04:32 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/floorplan/verilog2def.openroad.log"
+
+Mon Nov 02 06:04:33 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/floorplan/ioPlacer.log"
+
+Mon Nov 02 06:04:33 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/floorplan/tapcell.log"
+
+Mon Nov 02 06:04:34 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/placement/replace.log"
+
+Mon Nov 02 06:04:36 UTC 2020 - Executing "/openLANE_flow/scripts/libtrim.pl /home/mk/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib /home/mk/foss/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/opt.lib"
+
+Mon Nov 02 06:04:36 UTC 2020 - Executing "Psn /openLANE_flow/scripts/openPhySyn.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/placement/openphysyn.log"
+
+Mon Nov 02 06:04:42 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/write_verilog.log"
+
+Mon Nov 02 06:04:43 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis_optimized.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:04:43 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:04:43 UTC 2020 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/synthesis/opensta_post_openphysyn.log"
+
+Mon Nov 02 06:04:45 UTC 2020 - Executing "opendp -lef /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/merged.lef -def /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/placement/openphysyn.def -output_def /openLANE_flow/designs/spm/runs/02-11_06-04/results/placement/spm.placement.def |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/placement/opendp.log"
+
+Mon Nov 02 06:04:45 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/cts/cts.log"
+
+Mon Nov 02 06:06:31 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/write_verilog.log"
+
+Mon Nov 02 06:06:31 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis_cts.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:06:31 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis_optimized.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:06:31 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/floorplan/pdn.log"
+
+Mon Nov 02 06:06:32 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/routing/fastroute.log"
+
+Mon Nov 02 06:06:38 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/routing/fastroute_post_antenna.log"
+
+Mon Nov 02 06:06:46 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_fill.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/routing/addspacers.log"
+
+Mon Nov 02 06:06:47 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/write_verilog.log"
+
+Mon Nov 02 06:06:47 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis_preroute.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:06:47 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis_cts.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:06:47 UTC 2020 - Executing "envsubst < /openLANE_flow/scripts/tritonRoute.param > /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/routing/tritonRoute.param"
+
+Mon Nov 02 06:06:47 UTC 2020 - Executing "TritonRoute /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/routing/tritonRoute.param |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/routing/tritonRoute.log"
+
+Mon Nov 02 06:07:00 UTC 2020 - Executing "python3 /openLANE_flow/scripts/spef_extractor/main.py -l /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/merged_unpadded.lef -d /openLANE_flow/designs/spm/runs/02-11_06-04/results/routing/spm.def -mw L -ec 1 |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/routing/spef_extraction.log"
+
+Mon Nov 02 06:07:01 UTC 2020 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/synthesis/opensta_spef.log"
+
+Mon Nov 02 06:07:03 UTC 2020 - Executing "python3 /openLANE_flow/scripts/write_powered_def.py -d /openLANE_flow/designs/spm/runs/02-11_06-04/results/routing/spm.def -l /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/merged.lef -v VPWR -g VGND -o /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/routing/spm.powered.def |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/lvs/write_powered_verilog.log"
+
+Mon Nov 02 06:07:03 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/write_verilog.log"
+
+Mon Nov 02 06:07:04 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts/yosys_rewrite_verilog.tcl -l /openLANE_flow/designs/spm/runs/02-11_06-04/logs/synthesis/yosys_rewrite_verilog.log"
+
+Mon Nov 02 06:07:05 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/lvs\/spm.lvs.powered.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:07:05 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/spm\/runs\/02-11_06-04\/results\/synthesis\/spm.synthesis_preroute.v/} /openLANE_flow/designs/spm/runs/02-11_06-04/config.tcl"
+
+Mon Nov 02 06:07:05 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/mk/foss/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/magic/magic.log"
+
+Mon Nov 02 06:07:06 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/mk/foss/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/designs/spm/runs/02-11_06-04/tmp/magic_spice.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/magic/magic_spice.log"
+
+Mon Nov 02 06:07:07 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/mk/foss/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic_drc.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/magic/magic.drc.log"
+
+Mon Nov 02 06:07:08 UTC 2020 - Executing "netgen -batch lvs {/openLANE_flow/designs/spm/runs/02-11_06-04/results/magic/spm.spice spm} {/openLANE_flow/designs/spm/runs/02-11_06-04/results/lvs/spm.lvs.powered.v spm} /home/mk/foss/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/spm/runs/02-11_06-04/results/lvs/spm.lvs.log -json |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/lvs/lvs.log"
+
+Mon Nov 02 06:07:09 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_antenna_check.tcl |& tee >&@stdout /openLANE_flow/designs/spm/runs/02-11_06-04/logs/routing/or_antenna.log"
+
+Mon Nov 02 06:07:09 UTC 2020 - Executing "python3 /openLANE_flow/report_generation_wrapper.py -d /openLANE_flow/designs/spm -dn spm -t 02-11_06-04 -o /openLANE_flow/designs/spm/runs/02-11_06-04/reports/final_summary_report.csv -r /openLANE_flow/designs/spm/runs/02-11_06-04"
+

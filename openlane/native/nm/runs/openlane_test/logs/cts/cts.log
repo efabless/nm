@@ -1,0 +1,141 @@
+OpenROAD 0.9.0 e582f2522b
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/spm/runs/openlane_test/tmp/merged_unpadded.lef
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 437 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/spm/runs/openlane_test/tmp/merged_unpadded.lef
+Warning: /home/mk/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from LEF macro
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/spm/runs/openlane_test/results/placement/spm.placement.def
+Notice 0: Design: spm
+Notice 0:     Created 36 pins.
+Notice 0:     Created 636 components and 2392 component-terminals.
+Notice 0:     Created 405 nets and 1120 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/spm/runs/openlane_test/results/placement/spm.placement.def
+[INFO]: Setting output delay to: 2.0
+[INFO]: Setting input delay to: 2.0
+[INFO]: Setting load to: 0.01765
+[INFO]: Configuring cts characterization...
+[INFO]: Performing clock tree synthesis...
+[INFO]: Looking for the following net(s): clk
+ *****************
+ * TritonCTS 2.0 *
+ *****************
+ *****************************
+ *  Create characterization  *
+ *****************************
+Number of created patterns = 50000.
+Number of created patterns = 100000.
+Number of created patterns = 150000.
+Number of created patterns = 200000.
+Number of created patterns = 250000.
+Number of created patterns = 300000.
+Number of created patterns = 313632.
+ Compiling LUT
+    Min. len    Max. len    Min. cap    Max. cap   Min. slew   Max. slew
+           2           8           1          39           1         199
+    [WARNING] 6336 wires are pure wire and no slew degration.
+    TritonCTS forced slew degradation on these wires.
+    Num wire segments: 216048
+    Num keys in characterization LUT: 1887
+    Actual min input cap: 2
+ **********************
+ *  Find clock roots  *
+ **********************
+ Running TritonCTS with user-specified clock roots: clk
+ ************************
+ *  Populate TritonCTS  *
+ ************************
+ Initializing clock nets
+ Looking for clock nets in the design
+ Net "clk" found
+ Initializing clock net for : "clk"
+ Clock net "clk" has 64 sinks
+ TritonCTS found 1 clock nets.
+ ****************************
+ *  Check characterization  *
+ ****************************
+    The chacterization used 4 buffer(s) types. All of them are in the loaded DB.
+ ***********************
+ *  Build clock trees  *
+ ***********************
+ Generating H-Tree topology for net clk...
+    Tot. number of sinks: 64
+    Number of static layers: 0
+ Wire segment unit: 13000 dbu (13 um)
+ Original sink region: [(22805, 17740), (107905, 123700)]
+ Normalized sink region: [(1.75423, 1.36462), (8.30038, 9.51538)]
+    Width:  6.54615
+    Height: 8.15077
+ Level 1
+    Direction: Vertical
+    # sinks per sub-region: 32
+    Sub-region size: 6.54615 X 4.07538
+    Segment length (rounded): 2
+    Key: 0 outSlew: 2 load: 1 length: 2 isBuffered: 0
+ [WARNING] Creating fake entries in the LUT.
+ Level 2
+    Direction: Horizontal
+    # sinks per sub-region: 16
+    Sub-region size: 3.27308 X 4.07538
+    Segment length (rounded): 1
+    Key: 216280 outSlew: 11 load: 1 length: 1 isBuffered: 1
+ Level 3
+    Direction: Vertical
+    # sinks per sub-region: 8
+    Sub-region size: 3.27308 X 2.03769
+    Segment length (rounded): 1
+    Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
+ Stop criterion found. Max number of sinks is (15)
+ Building clock sub nets...
+ Number of sinks covered: 64
+ Clock topology of net "clk" done.
+ ****************
+ * Post CTS opt *
+ ****************
+ Avg. source sink dist: 18966 dbu.
+ Num outlier sinks: 0
+ ********************
+ * Write data to DB *
+ ********************
+ Writing clock net "clk" to DB
+    Created 13 clock buffers.
+    Minimum number of buffers in the clock path: 3.
+    Maximum number of buffers in the clock path: 3.
+    Created 13 clock nets.
+    Fanout distribution for the current clock = 6:2, 7:1, 9:5.
+    Max level of the clock tree: 3.
+ ... End of TritonCTS execution.
+[INFO]: Legalizing...
+Warning: could not find power special net
+Design Stats
+--------------------------------
+total instances           649
+multi row instances         0
+fixed instances           266
+nets                      418
+design area           13773.2 u^2
+fixed area              548.0 u^2
+movable area           5381.4 u^2
+utilization                41 %
+utilization padded         42 %
+rows                       43
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement       78.6 u
+average displacement      0.1 u
+max displacement         14.1 u
+original HPWL          9870.7 u
+legalized HPWL         9892.9 u
+delta HPWL                  0 %
+
