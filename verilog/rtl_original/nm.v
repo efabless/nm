@@ -105,25 +105,25 @@ wire [15:0]data_out_n= data_out_n1[15:0] & data_out_n2[15:0] & data_out_n3[15:0]
 & (read_in & (reg_in[3:0]==NETWORK_STATUS) ? NSR[15:0]: 16'hFFFF) | (RW_l ? 16'h0000 : 16'hFFFF) ; // test
 //
 // PADS for Xilinx implementation
-// IOBUF DATApad00(.I(1'b0),.O(data_in_pad[0]),.T(data_out_n[0]),.IO(DATA[0]));
-// IOBUF DATApad01(.I(1'b0),.O(data_in_pad[1]),.T(data_out_n[1]),.IO(DATA[1]));
-// IOBUF DATApad02(.I(1'b0),.O(data_in_pad[2]),.T(data_out_n[2]),.IO(DATA[2]));
-// IOBUF DATApad03(.I(1'b0),.O(data_in_pad[3]),.T(data_out_n[3]),.IO(DATA[3]));
-// IOBUF DATApad04(.I(1'b0),.O(data_in_pad[4]),.T(data_out_n[4]),.IO(DATA[4]));
-// IOBUF DATApad05(.I(1'b0),.O(data_in_pad[5]),.T(data_out_n[5]),.IO(DATA[5]));
-// IOBUF DATApad06(.I(1'b0),.O(data_in_pad[6]),.T(data_out_n[6]),.IO(DATA[6]));
-// IOBUF DATApad07(.I(1'b0),.O(data_in_pad[7]),.T(data_out_n[7]),.IO(DATA[7]));
-// IOBUF DATApad08(.I(1'b0),.O(data_in_pad[8]),.T(data_out_n[8]),.IO(DATA[8]));
-// IOBUF DATApad09(.I(1'b0),.O(data_in_pad[9]),.T(data_out_n[9]),.IO(DATA[9]));
-// IOBUF DATApad10(.I(1'b0),.O(data_in_pad[10]),.T(data_out_n[10]),.IO(DATA[10]));
-// IOBUF DATApad11(.I(1'b0),.O(data_in_pad[11]),.T(data_out_n[11]),.IO(DATA[11]));
-// IOBUF DATApad12(.I(1'b0),.O(data_in_pad[12]),.T(data_out_n[12]),.IO(DATA[12]));
-// IOBUF DATApad13(.I(1'b0),.O(data_in_pad[13]),.T(data_out_n[13]),.IO(DATA[13]));
-// IOBUF DATApad14(.I(1'b0),.O(data_in_pad[14]),.T(data_out_n[14]),.IO(DATA[14]));
-// IOBUF DATApad15(.I(1'b0),.O(data_in_pad[15]),.T(data_out_n[15]),.IO(DATA[15]));
+IOBUF DATApad00(.I(1'b0),.O(data_in_pad[0]),.T(data_out_n[0]),.IO(DATA[0]));
+IOBUF DATApad01(.I(1'b0),.O(data_in_pad[1]),.T(data_out_n[1]),.IO(DATA[1]));
+IOBUF DATApad02(.I(1'b0),.O(data_in_pad[2]),.T(data_out_n[2]),.IO(DATA[2]));
+IOBUF DATApad03(.I(1'b0),.O(data_in_pad[3]),.T(data_out_n[3]),.IO(DATA[3]));
+IOBUF DATApad04(.I(1'b0),.O(data_in_pad[4]),.T(data_out_n[4]),.IO(DATA[4]));
+IOBUF DATApad05(.I(1'b0),.O(data_in_pad[5]),.T(data_out_n[5]),.IO(DATA[5]));
+IOBUF DATApad06(.I(1'b0),.O(data_in_pad[6]),.T(data_out_n[6]),.IO(DATA[6]));
+IOBUF DATApad07(.I(1'b0),.O(data_in_pad[7]),.T(data_out_n[7]),.IO(DATA[7]));
+IOBUF DATApad08(.I(1'b0),.O(data_in_pad[8]),.T(data_out_n[8]),.IO(DATA[8]));
+IOBUF DATApad09(.I(1'b0),.O(data_in_pad[9]),.T(data_out_n[9]),.IO(DATA[9]));
+IOBUF DATApad10(.I(1'b0),.O(data_in_pad[10]),.T(data_out_n[10]),.IO(DATA[10]));
+IOBUF DATApad11(.I(1'b0),.O(data_in_pad[11]),.T(data_out_n[11]),.IO(DATA[11]));
+IOBUF DATApad12(.I(1'b0),.O(data_in_pad[12]),.T(data_out_n[12]),.IO(DATA[12]));
+IOBUF DATApad13(.I(1'b0),.O(data_in_pad[13]),.T(data_out_n[13]),.IO(DATA[13]));
+IOBUF DATApad14(.I(1'b0),.O(data_in_pad[14]),.T(data_out_n[14]),.IO(DATA[14]));
+IOBUF DATApad15(.I(1'b0),.O(data_in_pad[15]),.T(data_out_n[15]),.IO(DATA[15]));
 //
-// IOBUF ID_pad(.I(~(id & unclearn_in)),.O(id_l_in),.T(~(id & unclearn_in) ),.IO(ID_l));
-// IOBUF UNC_lpad(.I(unclearn_w),.O(unclearn_in),.T( unclearn_w),.IO(UNC_l));
+IOBUF ID_pad(.I(~(id & unclearn_in)),.O(id_l_in),.T(~(id & unclearn_in) ),.IO(ID_l));
+IOBUF UNC_lpad(.I(unclearn_w),.O(unclearn_in),.T( unclearn_w),.IO(UNC_l));
 // END of PADS for Xilinx
 assign oktolearn= unclearn_in;          // Propagate the okay for the  RTL (Ready to Learn)
 // ----------------------------------------------------------------------------------------

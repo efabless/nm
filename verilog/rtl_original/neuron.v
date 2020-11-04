@@ -11,13 +11,18 @@ the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-//*******************************************************************************************************************//
-// Neuron with individual prototype storage (Model CM1K -> OKI, QuarkSE Curie -> INTEL, NM500 manufactured by Nepes Korea //
-//*******************************************************************************************************************//
 
-module neuron(input clk, input reset_l, input ds, input read, input [3:0]register, input [15:0]data_in, input SR, input KNN, input oktolearn_in, input dci, output reg dco, output reg id, output unclearn, output reg [15:0]data_out, output reg ready);
+//************************************************************************************************************************//
+// Neuron with individual prototype storage (Model CM1K -> OKI, QuarkSE Curie -> INTEL, NM500 manufactured by Nepes Korea //
+//************************************************************************************************************************//
+
+module neuron(input clk, input reset_l, input ds, input read, input [3:0]register, input [15:0]data_in, input SR, input KNN,
+    input oktolearn_in, input dci, output reg dco, output reg id, output unclearn, output reg [15:0]data_out, output reg ready);
 //
 //Write neurons commands (5'h0x))
 parameter WNCR=5'h00;               // Write Context register
@@ -52,17 +57,18 @@ parameter defMINIF=16'h0002;        // Defaut Minimum Influence Field Value
 //
 reg oktolearn;
 reg unc_l;
+
 reg [7:0] ctxt;         // Bit[7]=Norm (0-L1, 1=LSUP), bit[6-0]=global context register
-reg [15:0] aif;         // Actual Influence Field (neuron generalization factor)
+reg [15:0] aif;         // Actual Influence Field (neuron generalisation factor)
 reg [15:0] dist;        // Distance (L1 or LSup) between the broadcasted input pattern and the neuron pattern (Vector)
-reg [15:0] cat;         	// Category register)
+reg [15:0] cat;         // Category register)
 reg [23:0] identifier;
 reg fire;
-reg nselect;        	//true if NCR= GCR
-reg exclude_loop;   	//exclude firing neuron from dist_output list when its DIST is read
-reg exclude_cat;    	//exclude firing neuron from cat_output list when its CAT is read
+reg nselect;        //true if NCR= GCR
+reg exclude_loop;   //exclude firing neuron from dist_output list when its DIST is read
+reg exclude_cat;    //exclude firing neuron from cat_output list when its CAT is read
 reg [15:0]minif;
-reg [7:0] ramindex; 	//index of component in the neuron memory
+reg [7:0] ramindex; //index of component in the neuron memory
 wire [7:0] protodata;
 reg [3:0] bit_ptr;
 wire ramrw_;
@@ -71,7 +77,7 @@ reg [4:0] cmd;       //used after CY_START1
 reg firing_id;
 reg [7:0]comp;
 //
-// The neuron is a state machine with three states    
+// The neuron isd state machin with three state    
 reg [2:0]sm_state;
 reg [2:0]sm_state_neg;
 parameter CY_START1=0;          // First half of the START cycle
@@ -86,9 +92,9 @@ parameter NS_IDLE=0;            // IDLE means no learned category and no daisy c
 parameter NS_RTL=1;             // RTL (Ready To Learn)  means no learned category but the neuron just before is committed so next learning for me
 parameter NS_COMMITTED=3;       // COMMITTED neuron has learned a category and if a pattern is broadcasted to all neurons will possiblye react to it
 //
-assign unclearn= oktolearn & unc_l;	// This signal is used for 
-                                     	// a) enabling learn signal if no neuron recognize the entered pattern so RTL can learn
-                                        // b) During recognition signal uncertain if neurons with different catgory react!
+assign unclearn= oktolearn & unc_l;         // This signal is used for 
+                                                    // a) enabling learn signal if no neuron recognize the entered pattern so RTL can learn
+                                                    // b) During recognition signal uncertain if neurons with different catgory react!
 //
 assign cmd_wire[4:0]={read,register[3:0]};
 //
