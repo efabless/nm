@@ -1,0 +1,6 @@
+
+19. Executing CHECK pass (checking for obvious problems).
+checking module nm..
+Warning: Wire nm.\RDY is used but has no driver.
+Warning: Wire nm.\DCO is used but has no driver.
+found and reported 2 problems.

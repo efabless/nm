@@ -1,0 +1,192 @@
+Startpoint: _74128_ (rising edge-triggered flip-flop clocked by G_CLK)
+Endpoint: _73349_ (removal check against rising-edge clock G_CLK)
+Path Group: **async_default**
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _74128_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.27    0.27 v _74128_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.23    0.50 v _69567_/X (sky130_fd_sc_hd__or3_4)
+   0.15    0.65 v _69570_/X (sky130_fd_sc_hd__or2_4)
+   0.10    0.75 v _69571_/X (sky130_fd_sc_hd__buf_1)
+   0.04    0.80 ^ _69572_/Y (sky130_fd_sc_hd__inv_8)
+   0.05    0.85 ^ _69573_/X (sky130_fd_sc_hd__buf_1)
+   0.16    1.01 ^ _69574_/X (sky130_fd_sc_hd__buf_1)
+   0.00    1.01 ^ _73349_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+           1.01   data arrival time
+
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _73349_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.24    0.24   library removal time
+           0.24   data required time
+---------------------------------------------------------
+           0.24   data required time
+          -1.01   data arrival time
+---------------------------------------------------------
+           0.76   slack (MET)
+
+
+Startpoint: _73349_ (rising edge-triggered flip-flop clocked by G_CLK)
+Endpoint: _36840_ (falling clock gating-check end-point clocked by G_CLK')
+Path Group: **clock_gating_default**
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _73349_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.23    0.23 ^ _73349_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00    0.23 ^ _36840_/B (sky130_fd_sc_hd__or2_4)
+           0.23   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _36840_/A (sky130_fd_sc_hd__or2_4)
+   0.00   57.50   clock gating hold time
+          57.50   data required time
+---------------------------------------------------------
+          57.50   data required time
+          -0.23   data arrival time
+---------------------------------------------------------
+         -57.27   slack (VIOLATED)
+
+
+Startpoint: _73411_ (rising edge-triggered flip-flop clocked by G_CLK)
+Endpoint: _73416_ (rising edge-triggered flip-flop clocked by G_CLK)
+Path Group: G_CLK
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _73411_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.22    0.22 ^ _73411_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.01    0.23 v _70020_/Y (sky130_fd_sc_hd__inv_8)
+   0.02    0.25 ^ _70049_/Y (sky130_fd_sc_hd__o21ai_4)
+   0.00    0.25 ^ _73416_/D (sky130_fd_sc_hd__dfrtp_4)
+           0.25   data arrival time
+
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _73416_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  -0.02   -0.02   library hold time
+          -0.02   data required time
+---------------------------------------------------------
+          -0.02   data required time
+          -0.25   data arrival time
+---------------------------------------------------------
+           0.27   slack (MET)
+
+
+Startpoint: RW_l (input port clocked by G_CLK)
+Endpoint: _77196_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v RW_l (in)
+   0.17   23.19 v _36692_/X (sky130_fd_sc_hd__buf_1)
+   0.20   23.38 v _37022_/X (sky130_fd_sc_hd__buf_1)
+   0.24   23.62 v _37023_/X (sky130_fd_sc_hd__buf_1)
+   1.13   24.75 v _73313_/X (sky130_fd_sc_hd__or4_4)
+   0.17   24.92 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+   0.21   25.13 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+   0.26   25.39 ^ psn_inst_psn_buff_1446/X (sky130_fd_sc_hd__buf_1)
+   0.22   25.60 ^ psn_inst_psn_buff_1448/X (sky130_fd_sc_hd__buf_8)
+   0.18   25.78 ^ psn_inst_psn_buff_1527/X (sky130_fd_sc_hd__buf_4)
+   0.17   25.95 ^ psn_inst_psn_buff_1531/X (sky130_fd_sc_hd__buf_8)
+   0.33   26.29 ^ psn_inst_psn_buff_1716/X (sky130_fd_sc_hd__buf_1)
+   0.36   26.65 ^ psn_inst_psn_buff_1717/X (sky130_fd_sc_hd__buf_1)
+   0.00   26.65 ^ _77196_/SET_B (sky130_fd_sc_hd__dfstp_4)
+          26.65   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _77196_/CLK (sky130_fd_sc_hd__dfstp_4)
+   0.23   57.73   library recovery time
+          57.73   data required time
+---------------------------------------------------------
+          57.73   data required time
+         -26.65   data arrival time
+---------------------------------------------------------
+          31.08   slack (MET)
+
+
+Startpoint: _73349_ (rising edge-triggered flip-flop clocked by G_CLK)
+Endpoint: _36840_ (falling clock gating-check end-point clocked by G_CLK')
+Path Group: **clock_gating_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _73349_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.92    0.92 v _73349_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00    0.92 v _36840_/B (sky130_fd_sc_hd__or2_4)
+           0.92   data arrival time
+
+ 115.00  115.00   clock G_CLK' (fall edge)
+   0.00  115.00   clock network delay (ideal)
+   0.00  115.00   clock reconvergence pessimism
+         115.00 v _36840_/A (sky130_fd_sc_hd__or2_4)
+   0.00  115.00   clock gating setup time
+         115.00   data required time
+---------------------------------------------------------
+         115.00   data required time
+          -0.92   data arrival time
+---------------------------------------------------------
+         114.08   slack (MET)
+
+
+Startpoint: DCI (input port clocked by G_CLK)
+Endpoint: _74552_ (rising edge-triggered flip-flop clocked by G_CLK')
+Path Group: G_CLK
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 ^ input external delay
+   0.05   23.05 ^ DCI (in)
+   0.06   23.11 v _36975_/Y (sky130_fd_sc_hd__inv_8)
+   0.39   23.50 v _36976_/X (sky130_fd_sc_hd__or2_4)
+   0.20   23.70 v _67419_/X (sky130_fd_sc_hd__o21a_4)
+   0.52   24.22 v _67420_/X (sky130_fd_sc_hd__a211o_4)
+   0.08   24.30 ^ _67421_/Y (sky130_fd_sc_hd__inv_8)
+   0.17   24.47 ^ _67422_/X (sky130_fd_sc_hd__or2_4)
+   0.64   25.11 ^ _67434_/X (sky130_fd_sc_hd__buf_1)
+   0.30   25.42 v _67441_/Y (sky130_fd_sc_hd__o21ai_4)
+   0.35   25.77 ^ _67442_/Y (sky130_fd_sc_hd__a32oi_4)
+   0.14   25.91 v _67444_/Y (sky130_fd_sc_hd__o21ai_4)
+   0.00   25.91 v _74552_/D (sky130_fd_sc_hd__dfrtp_4)
+          25.91   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74552_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  -0.32   57.18   library setup time
+          57.18   data required time
+---------------------------------------------------------
+          57.18   data required time
+         -25.91   data arrival time
+---------------------------------------------------------
+          31.27   slack (MET)
+
+

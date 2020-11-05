@@ -1,0 +1,3700 @@
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78336_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _78336_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78336_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78337_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _78337_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78337_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78338_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _78338_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78338_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79344_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _79344_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79344_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79345_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _79345_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79345_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79346_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _79346_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79346_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79338_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _79338_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79338_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79339_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.11 ^ _79339_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.11   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79339_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.11   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78383_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _78383_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78383_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79340_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _79340_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79340_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79343_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _79343_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79343_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79342_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _79342_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79342_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79341_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _79341_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79341_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.91   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76182_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _76182_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76182_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76181_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _76181_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76181_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76178_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _76178_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76178_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76179_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _76179_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76179_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76180_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _76180_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76180_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78392_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _78392_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78392_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78607_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _78607_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78607_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79282_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _79282_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79282_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79283_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.49   92.10 ^ _79283_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79283_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78599_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.48   92.10 ^ _78599_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.10   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78599_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.10   data arrival time
+---------------------------------------------------------
+         -89.90   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78600_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.47   92.08 ^ _78600_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78600_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.88   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78601_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.47   92.08 ^ _78601_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78601_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.88   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75577_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _75577_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75577_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76765_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _76765_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76765_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76766_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _76766_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76766_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78397_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78397_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78397_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75581_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _75581_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75581_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78393_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78393_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78393_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78606_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78606_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78606_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78394_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78394_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78394_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78396_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78396_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78396_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78395_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78395_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78395_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78605_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78605_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78605_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76946_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _76946_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76946_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76764_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _76764_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76764_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76947_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _76947_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76947_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76948_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _76948_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76948_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78604_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.08 ^ _78604_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.08   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78604_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.08   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76945_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76945_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76945_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75550_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _75550_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75550_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76944_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76944_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76944_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75549_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _75549_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75549_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76761_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76761_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76761_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78603_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _78603_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78603_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78602_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _78602_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78602_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76943_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76943_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76943_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76941_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76941_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76941_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76942_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76942_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76942_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75583_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _75583_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75583_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.30    2.20   library recovery time
+           2.20   data required time
+---------------------------------------------------------
+           2.20   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75580_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _75580_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75580_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.87   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75582_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _75582_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75582_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76762_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76762_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76762_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76979_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76979_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76979_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76978_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.46   92.07 ^ _76978_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76978_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76763_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.07 ^ _76763_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76763_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76980_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.07 ^ _76980_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.07   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76980_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.07   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74261_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.06 ^ _74261_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.06   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74261_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.06   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76981_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.06 ^ _76981_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.06   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76981_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.06   data arrival time
+---------------------------------------------------------
+         -89.86   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76985_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.06 ^ _76985_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.06   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76985_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.06   data arrival time
+---------------------------------------------------------
+         -89.85   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76982_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.06 ^ _76982_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.06   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76982_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.06   data arrival time
+---------------------------------------------------------
+         -89.85   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76983_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.45   92.06 ^ _76983_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.06   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76983_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.06   data arrival time
+---------------------------------------------------------
+         -89.85   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74262_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.44   92.05 ^ _74262_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.05   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74262_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.05   data arrival time
+---------------------------------------------------------
+         -89.84   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _76984_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.44   92.05 ^ _76984_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.05   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _76984_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.05   data arrival time
+---------------------------------------------------------
+         -89.84   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75578_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.44   92.05 ^ _75578_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.05   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75578_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.05   data arrival time
+---------------------------------------------------------
+         -89.84   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75579_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.44   92.05 ^ _75579_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.05   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75579_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.05   data arrival time
+---------------------------------------------------------
+         -89.84   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79271_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _79271_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79271_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79270_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _79270_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79270_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74376_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74376_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74376_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74377_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74377_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74377_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74378_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74378_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74378_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74379_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74379_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74379_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74256_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74256_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74256_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74258_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74258_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74258_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74257_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74257_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74257_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74259_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74259_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74259_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79269_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _79269_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79269_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _74260_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _74260_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _74260_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78334_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _78334_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78334_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78333_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _78333_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78333_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78339_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _78339_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78339_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.83   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75030_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _75030_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75030_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78340_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _78340_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78340_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78332_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _78332_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78332_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75029_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _75029_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75029_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75576_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _75576_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75576_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _77265_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.43   92.04 ^ _77265_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _77265_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78341_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.04 ^ _78341_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78341_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78342_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.04 ^ _78342_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78342_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _78343_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.04 ^ _78343_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _78343_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _77266_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.04 ^ _77266_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _77266_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _77267_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.04 ^ _77267_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _77267_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75024_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.04 ^ _75024_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.04   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75024_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.04   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75026_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.03 ^ _75026_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.03   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75026_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.29    2.21   library recovery time
+           2.21   data required time
+---------------------------------------------------------
+           2.21   data required time
+         -92.03   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _77268_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.03 ^ _77268_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.03   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _77268_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.28    2.22   library recovery time
+           2.22   data required time
+---------------------------------------------------------
+           2.22   data required time
+         -92.03   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79267_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.03 ^ _79267_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.03   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79267_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.28    2.22   library recovery time
+           2.22   data required time
+---------------------------------------------------------
+           2.22   data required time
+         -92.03   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _79268_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.03 ^ _79268_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.03   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _79268_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.28    2.22   library recovery time
+           2.22   data required time
+---------------------------------------------------------
+           2.22   data required time
+         -92.03   data arrival time
+---------------------------------------------------------
+         -89.82   slack (VIOLATED)
+
+
+Startpoint: DS (input port clocked by G_CLK)
+Endpoint: _75025_ (recovery check against rising-edge clock G_CLK')
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock G_CLK (rise edge)
+   0.00    0.00   clock network delay (ideal)
+  23.00   23.00 v input external delay
+   0.02   23.02 v DS (in)
+   0.28   23.30 v _36740_/X (sky130_fd_sc_hd__buf_1)
+   0.38   23.69 v _36741_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.10 v _36742_/X (sky130_fd_sc_hd__buf_1)
+   0.41   24.51 v _36743_/X (sky130_fd_sc_hd__buf_1)
+   0.38   24.88 v _36744_/X (sky130_fd_sc_hd__buf_1)
+   0.32   25.20 v _36745_/X (sky130_fd_sc_hd__buf_1)
+   0.37   25.57 v _36746_/X (sky130_fd_sc_hd__buf_1)
+   0.51   26.08 v _70318_/X (sky130_fd_sc_hd__buf_1)
+   0.31   26.39 ^ _73314_/Y (sky130_fd_sc_hd__nor2_4)
+  47.22   73.61 ^ _73315_/X (sky130_fd_sc_hd__a21o_4)
+  18.42   92.03 ^ _75025_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          92.03   data arrival time
+
+  57.50   57.50   clock G_CLK' (rise edge)
+   0.00   57.50   clock network delay (ideal)
+   0.00   57.50   clock reconvergence pessimism
+          57.50 ^ _75025_/CLK (sky130_fd_sc_hd__dfrtp_4)
+ -55.28    2.22   library recovery time
+           2.22   data required time
+---------------------------------------------------------
+           2.22   data required time
+         -92.03   data arrival time
+---------------------------------------------------------
+         -89.81   slack (VIOLATED)
+
+

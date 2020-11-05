@@ -1,0 +1,129 @@
+OpenROAD 0.9.0 e582f2522b
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /project/openlane/runs/nm/tmp/merged_unpadded.lef
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 437 library cells
+Notice 0: Finished LEF file:  /project/openlane/runs/nm/tmp/merged_unpadded.lef
+Warning: /home/aag/latest_pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from LEF macro
+Notice 0: 
+Reading DEF file: /project/openlane/runs/nm/results/placement/nm.placement.def
+Notice 0: Design: nm
+Notice 0:     Created 30 pins.
+Notice 0:     Created 73731 components and 297841 component-terminals.
+Notice 0:     Created 46205 nets and 150379 connections.
+Notice 0: Finished DEF file: /project/openlane/runs/nm/results/placement/nm.placement.def
+[INFO]: Setting output delay to: 23.0
+[INFO]: Setting input delay to: 23.0
+[INFO]: Setting load to: 0.01765
+[INFO]: Configuring cts characterization...
+[INFO]: Performing clock tree synthesis...
+[INFO]: Looking for the following net(s): G_CLK
+ *****************
+ * TritonCTS 2.0 *
+ *****************
+ *****************************
+ *  Create characterization  *
+ *****************************
+Number of created patterns = 50000.
+Number of created patterns = 100000.
+Number of created patterns = 150000.
+Number of created patterns = 200000.
+Number of created patterns = 250000.
+Number of created patterns = 300000.
+Number of created patterns = 313632.
+ Compiling LUT
+    Min. len    Max. len    Min. cap    Max. cap   Min. slew   Max. slew
+           2           8           1          39           1         366
+    [WARNING] 6336 wires are pure wire and no slew degration.
+    TritonCTS forced slew degradation on these wires.
+    Num wire segments: 313632
+    Num keys in characterization LUT: 2073
+    Actual min input cap: 2
+ **********************
+ *  Find clock roots  *
+ **********************
+ Running TritonCTS with user-specified clock roots: G_CLK
+ ************************
+ *  Populate TritonCTS  *
+ ************************
+ Initializing clock nets
+ Looking for clock nets in the design
+ Net "G_CLK" found
+ Initializing clock net for : "G_CLK"
+ Clock net "G_CLK" has 18 sinks
+ TritonCTS found 1 clock nets.
+ ****************************
+ *  Check characterization  *
+ ****************************
+    The chacterization used 4 buffer(s) types. All of them are in the loaded DB.
+ ***********************
+ *  Build clock trees  *
+ ***********************
+ Generating H-Tree topology for net G_CLK...
+    Tot. number of sinks: 18
+    Number of static layers: 0
+ Wire segment unit: 13000 dbu (13 um)
+ Original sink region: [(801585, 1315060), (1069765, 1353140)]
+ Normalized sink region: [(61.6604, 101.158), (82.2896, 104.088)]
+    Width:  20.6292
+    Height: 2.92923
+ [WARNING] Creating fake entries in the LUT.
+ Level 1
+    Direction: Horizontal
+    # sinks per sub-region: 9
+    Sub-region size: 10.3146 X 2.92923
+    Segment length (rounded): 1
+    Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
+ Stop criterion found. Max number of sinks is (15)
+ Building clock sub nets...
+ Number of sinks covered: 18
+ Clock topology of net "G_CLK" done.
+ ****************
+ * Post CTS opt *
+ ****************
+ Avg. source sink dist: 108315 dbu.
+ Num outlier sinks: 0
+ ********************
+ * Write data to DB *
+ ********************
+ Writing clock net "G_CLK" to DB
+    Created 3 clock buffers.
+    Minimum number of buffers in the clock path: 2.
+    Maximum number of buffers in the clock path: 2.
+    Created 3 clock nets.
+    Fanout distribution for the current clock = 9:2.
+    Max level of the clock tree: 1.
+ ... End of TritonCTS execution.
+[INFO]: Legalizing...
+Warning: could not find power special net
+Design Stats
+--------------------------------
+total instances         73734
+multi row instances         0
+fixed instances         27554
+nets                    46208
+design area          2024644.3 u^2
+fixed area            37093.1 u^2
+movable area         599296.0 u^2
+utilization                30 %
+utilization padded         30 %
+rows                      523
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement       22.6 u
+average displacement      0.0 u
+max displacement          9.2 u
+original HPWL        1892884.4 u
+legalized HPWL       1892899.9 u
+delta HPWL                  0 %
+

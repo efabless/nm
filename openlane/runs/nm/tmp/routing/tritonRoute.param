@@ -1,0 +1,10 @@
+lef:/project/openlane/runs/nm/tmp/merged_unpadded.lef
+def:/project/openlane/runs/nm/tmp/routing/addspacers.def
+guide:/project/openlane/runs/nm/tmp/routing/fastroute.guide
+output:/project/openlane/runs/nm/results/routing/nm.def
+outputTA:/project/openlane/runs/nm/tmp/routing/tritonRoute_TA.def
+outputguide:/project/openlane/runs/nm/tmp/routing/tritonRoute.guide
+outputDRC:/project/openlane/runs/nm/reports/routing/tritonRoute.drc
+outputMaze:/project/openlane/runs/nm/tmp/routing/tritonRoute_maze.log
+threads:4
+verbose:1

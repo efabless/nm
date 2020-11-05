@@ -1,0 +1,79 @@
+===========================================================================
+   Open Source Mixed-Height Standard Cell Detail Placer < OpenDP_v1.0 >    
+   Developers : SangGi Do, Mingyu Woo                                      
+===========================================================================
+Parsed 10000 number of lines!!
+Parsed 20000 number of lines!!
+Parsed 30000 number of lines!!
+Parsed 40000 number of lines!!
+Parsed 50000 number of lines!!
+Parsed 60000 number of lines!!
+Reading /project/openlane/runs/nm/tmp/merged.lef is Done
+
+-------------------- INPUT FILES ----------------------------------
+ benchmark name    : placement
+ directory         : /project/openlane/runs/nm/tmp
+ lef               : /project/openlane/runs/nm/tmp/merged.lef
+ def               : /project/openlane/runs/nm/tmp/placement/openphysyn.def
+-------------------------------------------------------------------
+Parsed 10000 number of lines!!
+Parsed 20000 number of lines!!
+Parsed 30000 number of lines!!
+Parsed 40000 number of lines!!
+Parsed 50000 number of lines!!
+Parsed 60000 number of lines!!
+Parsed 70000 number of lines!!
+Parsed 80000 number of lines!!
+Parsed 90000 number of lines!!
+Parsed 100000 number of lines!!
+Parsed 110000 number of lines!!
+Parsed 120000 number of lines!!
+CoreArea: 
+5520.000000 : 10880.000000 - 1428760.000000 : 1433440.000000
+DieArea: 
+0.000000 : 0.000000 - 1423240.000000 : 1422560.000000
+Reading /project/openlane/runs/nm/tmp/placement/openphysyn.def is Done
+-------------------- DESIGN ANALYSIS ------------------------------
+  total cells              : 73731
+  multi cells              : 0
+  fixed cells              : 27554
+  total nets               : 46205
+  design area              : 2.02464e+12
+  total f_area             : 3.70931e+10
+  total m_area             : 1.06148e+12
+  design util              : 53.4063
+  num rows                 : 523
+  row height               : 2720
+-------------------------------------------------------------------
+ non_group_cell_region_assign done ..
+ - - - - - - - - - - - - - - - - - - - - - - - - 
+ non_group_cell_placement done .. 
+ - - - - - - - - - - - - - - - - - - - - - - - - 
+Reading /project/openlane/runs/nm/tmp/placement/openphysyn.def is Done
+ DEF file write success !! 
+ location : /project/openlane/runs/nm/results/placement/nm.placement.def
+-------------------------------------------------------------------
+ tasks                          Wtime      Ctime
+ Parser                         2.505      2.410
+ resgin assign                  2.522      2.430
+ pre-placement                  2.522      2.430
+ non Group cell placement       2.714      2.620
+ All                            2.727      2.630
+ - - - - - EVALUATION - - - - - 
+ AVG_displacement : 2996.56
+ SUM_displacement : 2.2094e+08
+ MAX_displacement : 38493
+ - - - - - - - - - - - - - - - - 
+ GP HPWL          : 1.69345e+06
+ HPWL             : 1.89541e+06
+ avg_Disp_site    : 6.51427
+ avg_Disp_row     : 1.10168
+ delta_HPWL       : 11.9263
+ ==== CHECK LEGALITY ==== 
+ row_check ==>> PASS 
+ site_check ==>> PASS 
+ power_check ==>> PASS 
+ edge_check ==>> PASS 
+ placed_check ==>> PASS 
+ overlap_check ==>> PASS 
+ - - - - - < Program END > - - - - - 
